@@ -1,0 +1,22 @@
+html{
+    background-color: black;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color:aqua;
+    animation-name: box;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes box{
+    25%{
+        transform: rotateX(180deg);
+    }
+    50%{
+        transform: rotateY(-180deg);
+    }
+}
+.lod{
+    
+}
