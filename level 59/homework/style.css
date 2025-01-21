@@ -2,12 +2,28 @@ html{
     background-color: black;
 }
 .box{
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
     background-color:aqua;
     animation-name: box;
     animation-duration: 4s;
     animation-iteration-count: infinite;
+}
+.box2{
+    height: 130px;
+    width: 130px;
+    background-color:rgb(0, 0, 0);
+    animation-name: box;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    position: absolute;
+    left: 9px;
+    top: 13px;
+}
+.boxm{
+    position: absolute;
+    left: 41%;
+    top: 50px;
 }
 @keyframes box{
     25%{
@@ -16,4 +32,33 @@ html{
     50%{
         transform: rotateY(-180deg);
     }
+}
+.div{
+    display: flex;
+    justify-content: column;
+}
+.lod1{
+    height: 19px;
+    width: 260px;
+    background-color:rgb(255, 255, 255);
+    border-radius: 20px;
+    position: absolute;
+    left: 37%;
+    top: 239px;
+}
+.lod2{
+    height: 19px;
+    width: 0px;
+    background-color:aqua;
+    border-radius: 20px;
+    position: absolute;
+    left: 37%;
+    top: 239px;    
+    animation-name: whitee;
+    animation-duration: 8s;
+}
+@keyframes whitee {
+    50%{
+        width: 260px;
+    }   
 }
