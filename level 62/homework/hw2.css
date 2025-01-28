@@ -1,0 +1,26 @@
+.box{
+    width: 310px;
+    height: 320px;
+    background-color: hsl(185, 75%, 39%);
+    border-radius: 12px;
+}
+.box1{
+    width: 310px;
+    height: 180px;
+    background-color: rgb(255, 255, 255);
+    border-radius:12px;
+    position:absolute;
+    top: 150px;
+}
+html{
+    background-color: blue;
+}
+.cir{
+    height:90px;
+    width: 90px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top:0px;
+    left: 100px;
+}

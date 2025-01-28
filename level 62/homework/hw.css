@@ -1,0 +1,9 @@
+.box1{
+    display: flex;
+    width: 320px;
+    height: 390px;
+    background-color: hsl(31, 77%, 52%);
+    block-size: 390px;
+    border-bottom-left-radius:20px;
+    border-top-left-radius: 20px;
+}
